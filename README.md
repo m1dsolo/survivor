@@ -1,3 +1,27 @@
+## Project Migration Notice
+
+This repository has been **archived** and will no longer receive updates or maintenance.
+
+All ongoing development has been migrated to [this project](https://github.com/m1dsolo/game), which features significant architectural improvements:
+
+- **Core Logic Encapsulation**:
+`ECS` framework, `SDL3` interactions,
+and other fundamental functionalities are abstracted into an independent `core` module,
+forming a game engine-like foundation.
+
+- **Multi-game Support**:
+The `core` module enables rapid development of games across different genres.
+It is planned to build various types of games based on it,
+including `survivor`, `RPG`, `MOBA`, `RTS` games, and more..
+
+- **Visualization editor**:
+A `visualization editor` similar to War3's editor is in the roadmap,
+designed to assist with programming and facilitate game content creation.
+
+Stay tuned to the new repository for the latest developments!
+
+---
+
 <div align="center">
 
 <h1>A Simple Rougelike Game</h1>
@@ -50,7 +74,8 @@ The project used the following technologies:
 - `Lazy Theta*` pathfinding algorithm, providing smoother movement compared to `A*`
 - `JSON` is used to configure game settings, monster information, item information, upgrade rewards, monster upgrade information, behavior tree, etc.
 
-`ECS`, `QuadTree` and other modules primarily rely on my [wheel library](https://github.com/m1dsolo/wheel).
+- `ECS` rely on my [ECS library](https://github.com/m1dsolo/ecs).
+- `QuadTree` and other modules primarily rely on my [wheel library](https://github.com/m1dsolo/wheel).
 Refer to the library's documentation for more details.
 
 ## Install
